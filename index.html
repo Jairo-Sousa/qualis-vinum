@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Promoção | QUALIS VINUM</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap"
+    />
+  </head>
+
+  <body>
+    <header class="flex-center">
+      <div class="logo"> <a href="#home"> QUALIS <span>VINUM</span></a>
+      <nav>
+        <ul class="flex-center">
+          <li>
+            <a href="#home">Início</a>
+          </li>
+          <li>
+            <a href="#promotions">Promoções</a>
+          </li>
+          <li>
+            <a href="#register">Cadastre-se</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="section-content">
+          <img src="/assets/cork-back.jpg" alt="" />
+
+          <div id="main-section-content">
+            <h1 id="title">Sua adega oline está com Promoções</h1>
+            <p>Cadastre-se para receber ofertas exclusivas</p>
+
+            <div class="register-buttom flex-center">
+              <a href="#register">Cadastre-se</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="promotions" class="flex-center">
+        <h1>Você receberá essas ofertas!</h1>
+
+        <div id="cards" class="flex-center">
+          <div class="card flex-center">
+            <div class="circle bottle">
+              <img src="/assets/produtos/castillo-wine.png" alt="" />
+            </div>
+
+            <h2>Vinhos</h2>
+            <p>Castillo Ygay Gran</p>
+            <p>R$ 1800.00</p>
+          </div>
+
+          <div class="card flex-center">
+            <img class="circle" src="/assets/produtos/coravin1.webp" alt="" />
+
+            <h2>Acessórios</h2>
+
+            <p>Coravin</p>
+            <p>R$ 2000.00</p>
+          </div>
+
+          <div class="card flex-center">
+            <div class="circle">
+              <img src="/assets/produtos/shirt.jpeg" alt="" />
+            </div>
+            <h2>Camisas temáticas</h2>
+            <p>Camisa estampada</p>
+            <p>R$ 70.00</p>
+          </div>
+
+          <div class="card flex-center">
+            <div class="circle">
+              <img src="/assets/produtos/wine-guide.png" alt="" />
+            </div>
+            <h2>Guias de vinho</h2>
+            <p>Coleção inner editora</p>
+            <p>R$ 150.00</p>
+          </div>
+        </div>
+
+        <div class="register-buttom flex-center end-page">
+          <a href="#register">Cadastre-se</a>
+        </div>
+      </section>
+
+      <section id="register" class="flex-center">
+        <div id="main-content" class="flex-center">
+          <blockquote>
+            O vinho é zombador e a bebida fermentada provoca brigas; não é sábio
+            deixar-se dominar por eles.
+            <span>Provérbios 20:1 NVI</span>
+          </blockquote>
+
+          <form action="#" class="flex-center">
+            <input id="register-email" type="text" placeholder="E-mail" />
+            <div
+              id="register-buttom"
+              class="flex-center"
+              onclick="registerEmail()"
+            >
+              Cadastrar
+            </div>
+          </form>
+        </div>
+        
+        <img src="/assets/bottles-back.jpg" alt="" />
+        <div id="register-confirmation">
+          
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="flex-center">
+      <div class="flex-center">
+        <div class="logo">QUALIS <span>VINUM</span></div>
+      <p>&copy; QUALIS VINUM</p>
+      <p>Todos os direitos reservados</p>
+      </div>
+      <div id="social" class="flex-center">
+        <img src="./assets/logo-gama.svg" alt="">
+        <p>Desafio Gama Academy</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
