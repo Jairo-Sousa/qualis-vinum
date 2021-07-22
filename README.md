@@ -2,8 +2,7 @@
 
 ## Adega Oline
 
-Landing page de empresa fictícia.
+Landing page da empresa fictícia Qualis Vinum.
 Desafio feito pela Gama Academy
 
-[`Clique aqui`](https://jairo-sousa.github.io/qualis-vinum/) para acessar a página
-Obs.: A página perdeu algumas estilizações e as imagens, eu usava o Live server e funcionava. estou tentando resolver.
+[`Clique aqui`](https://nifty-swanson-504938.netlify.app/) para acessar a página.
